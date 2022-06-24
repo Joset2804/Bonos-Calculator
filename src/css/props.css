@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+.aic{align-items: center;}
+.jic{justify-content: center;}
+
+.fixed {position: fixed;}
+.abs{position: absolute;}
+.rel{position: relative;}
+
+.flex {display: flex;}
+
+.bl{display: block;}
+
+.noul{text-decoration: none;}
+
+.c333{color: #c333;}
+.c777{color: #c777;}
+.s11{font-size: 11px;}
+.s12{font-size: 12px;}
+.s13{font-size: 13px;}
+.s15{font-size: 15px;}
+.s18{font-size: 18px;}
+.s20{font-size: 20px;}
+.s24{font-size: 24px;}
+.s32{font-size: 32px;}
+.s42{font-size: 42px;}
+
+.fontb{font-weight: bold;}
+.fontn{font-weight: normal;}

@@ -1,0 +1,245 @@
+/*CALCULADORA BONOC INICIO*/
+.inicio{
+  margin: 1rem;
+}
+.inicio .seccion1{}
+.inicio .seccion1 .seccionInput{}
+.inicio .seccion1 .seccionInput .formularioBono{}
+.inicio .seccion1 .seccionInput .formularioBono .inputs{
+  margin-bottom: 1rem;
+}
+.inicio .seccion1 .seccionInput .formularioBono .controlBotones{
+  margin-bottom: 1rem;
+}
+.inicio .seccion1 .seccionInput .formularioBono .controlBotones .botonTipoBono{
+  width: 5.5rem;
+  height: 3rem;
+  margin: 0 0.75rem 0 0;
+}
+.inicio .seccion1 .seccionInput .formularioBono .controlBotones .botonSubmit{
+  width: 7.5rem;
+  height: 3rem;
+  margin: 0 0.75rem 0 0.75rem;
+}
+
+.inicio .seccion1 .seccionInput .formularioBono .inputs .columnaForm .inputBox{
+  margin-bottom: 0.25rem
+}
+
+.inicio .seccion1 .seccionInput .formularioBono .inputs .columnaForm .inputBox h3{
+  font-size: 0.90rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+.inicio .seccion1 .seccionInput .formularioBono .inputs .columnaForm .inputBox input{
+  position: relative;
+  left: 2rem;
+  height: 1rem;
+  margin-bottom: 0.5rem;
+}
+.inicio .seccion1 .seccionInput .formularioBono .inputs .columnaForm .inputBox select{
+  position: relative;
+  left: 2rem;
+  height: 1.75rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem
+}
+.inicio .seccion1 .seccionInput .formularioBono .inputs .columnaForm .inputBox select option{
+  height: 1.75rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.25rem
+}
+
+.inicio .seccion1 .seccionOutput .tablaOutput{}
+.inicio .seccion1 .seccionOutput .tablaOutput .titulo{}
+.inicio .seccion1 .seccionOutput .tablaOutput .listaOutput{}
+.inicio .seccion1 .seccionOutput .tablaOutput .itemListaOutput{}
+
+/*SIDEBAR*/
+.bonoActivo{
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*SIDEBAR*/
+.sidebar{
+  width: 10rem;
+}
+.sidebar h1{
+  margin: 1rem 1rem;
+}
+.sidebar .nav{
+  margin: 1rem 1rem 0 1rem;
+}
+.sidebar .nav li{
+  margin: 0;
+  padding: 0;
+}
+.sidebar .nav li a{
+  font-size: 12px;
+  flex-direction: row;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.sidebar .nav li .active{
+  font-size: 12px;
+  border-left: 0.25rem black solid;
+  color: black;
+  line-height: 0.5;
+  background-color: #efefef
+}
+.sidebar .miPerfil{
+  margin: 1rem;
+}
+.sidebar .miPerfil .apodo{}
+.sidebar .botobCerrarSesion{
+  margin-left: 1rem;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 0.2rem;
+  width: 7rem;
+  height: 2rem;
+}
+
+/*RESULTADOS*/
+.seccionOutput{
+  margin-left: 1rem
+}
+.seccionOutput .tablaOutput{
+  border-radius: 1rem;
+  background-color: #efefef;
+  margin: 0 1rem 1rem 1rem;
+  padding: 1.25rem;
+}
+.seccionOutput .tablaOutput .titulo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.seccionOutput .tablaOutput .listaOutput{}
+.seccionOutput .tablaOutput .listaOutput .itemListaOutput{}
+.seccionOutput .tablaOutput .listaOutput .itemListaOutput h3{
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/*TABLA RESULTADOS*/
+.inicio .seccion2{}
+.inicio .seccion2 .tablaResultados{}
+.inicio .seccion2 .tablaResultados .titulotabla{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+.inicio .seccion2 .tablaResultados .filaTitulos{
+  margin-bottom: 1rem;
+  border-style: solid;
+  border-width: thin;
+  width: 72rem;
+  text-align: center;
+  flex: 18;
+
+}
+.inicio .seccion2 .tablaResultados .filaTitulos .titulo{
+  font-size: 0.75rem;
+  flex: 1;
+}
+.inicio .seccion2 .tablaResultados .fila{
+  background-color: #efefef;
+  margin-bottom: 0.5rem;
+  width: 72rem;
+  text-align: center;
+  flex: 18;
+}
+.inicio .seccion2 .tablaResultados .fila .itemFila{
+  font-size: 0.75rem;
+  flex: 1
+}
+.inicio .seccion2 .tablaResultados .botonesTabla{
+    margin-top: 1.5rem;
+}
+
+.inicio .seccion2 .tablaResultados .botonSaveTabla{
+  width: 5.5rem;
+  height: 3rem;
+  margin: 0 0.75rem 0 0;
+}
+.inicio .seccion2 .tablaResultados .botonBorrarTabla{
+  width: 5.5rem;
+  height: 3rem;
+  margin: 0 0.75rem 0 0;
+}
+
+/*MIS TABLAS*/
+
+.misTablas{
+  margin: 1rem;
+}
+.misTablas .seccionTablasGuardadas{
+  margin-bottom: 1rem;
+}
+.misTablas .seccionTablasGuardadas .titulo{
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.misTablas .seccionTablasGuardadas .listaTablasGuardadas{
+  width: 70rem;
+  border-radius: 1rem;
+  background-color: #efefef;
+  padding: 1.5rem;
+}
+.misTablas .seccionTablasGuardadas .listaTablasGuardadas .itemTablaGuardada{
+  display: flex;
+  flex: 5;
+  padding-left: 1.5rem;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  line-height: 3.5rem;
+  font-size: 1.2rem;
+}
+.misTablas .seccionTablasGuardadas .listaTablasGuardadas .itemTablaGuardada .tituloTablaGuardada{
+  flex: 4.5;
+}
+.misTablas .seccionTablasGuardadas .listaTablasGuardadas .itemTablaGuardada .botonBorrarTablaGuardada{
+  font-size: 1.2rem;
+  font-weight: bold;
+  flex: 0.5;
+}
+
+.misTablas .seccionTablaSeleccionada{}
+.misTablas .seccionTablaSeleccionada .tituloTabla{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+.misTablas .seccionTablaSeleccionada .tablaSeleccionada{}
+.misTablas .seccionTablaSeleccionada .tablaSeleccionada .filaTitulos{
+  display: flex;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  border-style: solid;
+  border-width: thin;
+  width: 72rem;
+  text-align: center;
+  flex: 17;
+}
+.misTablas .seccionTablaSeleccionada .tablaSeleccionada .titulo{
+  display: flex;
+  flex: 1;
+}
+.misTablas .seccionTablaSeleccionada .tablaSeleccionada .fila{
+  display: flex;
+  background-color: #efefef;
+  margin-bottom: 0.5rem;
+  width: 72rem;
+  text-align: center;
+  flex: 17;
+}
+.misTablas .seccionTablaSeleccionada .tablaSeleccionada .fila .itemFila{
+  display: flex;
+  font-size: 0.75rem;
+  flex: 1
+}
